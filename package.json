@@ -1,0 +1,13 @@
+{
+  "name": "verifi-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Verifi marketing website, published with GitHub Pages",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "check": "node --check app.js && node scripts/check.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
